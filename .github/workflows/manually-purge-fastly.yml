@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Check out repo
-        uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29
 
       - name: Install dependencies
         run: npm ci
